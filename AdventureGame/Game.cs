@@ -17,11 +17,13 @@ namespace AdventureGame
         public void RunGame()
         {
             Console.WriteLine(Knight());
-            Console.WriteLine("Dragons have been spotted throughout the land. It is up to you to kill them all. \nEach dragon has a weakness. Good luck!");
-            Console.WriteLine("First we head up into the mountains to face the Ruby Dragon. \nPick your weapon of choice: (sword, spear, or wand)");
-            player.setWeapon(Console.ReadLine());
+            pickWeapon();
             Console.WriteLine(firstDragon());
-            while(player.IsAlive())
+            endGame();
+        }
+        public void endGame()
+        {
+            while (player.IsAlive())
             {
                 Console.WriteLine(secondDragon());
                 if (player.IsAlive())
@@ -31,7 +33,14 @@ namespace AdventureGame
                 }
             }
             Console.WriteLine("THE END\npress enter to exit");
-            Console.ReadLine();         
+            Console.ReadLine();
+        }
+
+        public void pickWeapon()
+        {
+            Console.WriteLine("Dragons have been spotted throughout the land. It is up to you to kill them all. \nEach dragon has a weakness. Good luck!");
+            Console.WriteLine("First we head up into the mountains to face the Ruby Dragon. \nPick your weapon of choice: (sword, spear, or wand)");
+            player.setWeapon(Console.ReadLine());
         }
         public string Knight()
         {
@@ -62,7 +71,7 @@ namespace AdventureGame
             }
             else if (player.getWeapon() == "spear")
             {
-                return "You thrust the spear passed the Ruby Dragon's large claws and deal a fatal blow. Congratulations, the Ruby Dragon is dead.";
+                return "You thrust the spear passed the Ruby Dragon's large claws and deal a fatal blow. \nCongratulations, the Ruby Dragon is dead.";
             }
             else
             {
