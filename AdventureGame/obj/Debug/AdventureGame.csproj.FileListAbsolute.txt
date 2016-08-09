@@ -1,0 +1,6 @@
+C:\Users\Kristofer\Desktop\devCodeCamp\C#\AdventureGame\AdventureGame\bin\Debug\AdventureGame.exe.config
+C:\Users\Kristofer\Desktop\devCodeCamp\C#\AdventureGame\AdventureGame\bin\Debug\AdventureGame.exe
+C:\Users\Kristofer\Desktop\devCodeCamp\C#\AdventureGame\AdventureGame\bin\Debug\AdventureGame.pdb
+C:\Users\Kristofer\Desktop\devCodeCamp\C#\AdventureGame\AdventureGame\obj\Debug\AdventureGame.csprojResolveAssemblyReference.cache
+C:\Users\Kristofer\Desktop\devCodeCamp\C#\AdventureGame\AdventureGame\obj\Debug\AdventureGame.exe
+C:\Users\Kristofer\Desktop\devCodeCamp\C#\AdventureGame\AdventureGame\obj\Debug\AdventureGame.pdb
